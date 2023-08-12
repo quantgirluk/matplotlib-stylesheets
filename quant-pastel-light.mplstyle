@@ -562,7 +562,7 @@ legend.frameon:       False     # if True, draw the legend on a background patch
 #figure.dpi:         100       # figure dots per inch
 #figure.facecolor:   white     # figure face color
 #figure.edgecolor:   white     # figure edge color
-figure.frameon:    False      # enable figure frame
+figure.frameon:    True      # enable figure frame
 #figure.max_open_warning: 20   # The maximum number of figures to open through
                                # the pyplot interface before emitting a warning.
                                # If less than one this feature is disabled.
