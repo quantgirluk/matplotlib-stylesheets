@@ -680,7 +680,7 @@ figure.frameon:    True      # enable figure frame
 ## e.g., you may want a higher resolution, or to make the figure
 ## background white
 #savefig.dpi:       figure      # figure dots per inch or 'figure'
-#savefig.facecolor: auto        # figure face color when saving
+savefig.facecolor: 'white'        # figure face color when saving
 #savefig.edgecolor: auto        # figure edge color when saving
 #savefig.format:    png         # {png, ps, pdf, svg}
 #savefig.bbox:      standard    # {tight, standard}
@@ -692,7 +692,7 @@ figure.frameon:    True      # enable figure frame
                                 # interactive saves, unless set to the empty string (i.e.
                                 # the current directory); use '.' to start at the current
                                 # directory but update after interactive saves
-#savefig.transparent: False     # whether figures are saved with a transparent
+savefig.transparent: False     # whether figures are saved with a transparent
                                 # background by default
 #savefig.orientation: portrait  # orientation of saved figure, for PostScript output only
 
