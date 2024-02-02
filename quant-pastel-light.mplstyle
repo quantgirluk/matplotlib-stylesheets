@@ -380,7 +380,7 @@ axes.grid.axis:     both    # which axis the grid should apply to
 #axes.labelpad:      4.0     # space between label and axis
 #axes.labelweight:   normal  # weight of the x and y labels
 #axes.labelcolor:    black
-#axes.axisbelow:     line    # draw axis gridlines and ticks:
+axes.axisbelow:      True    # draw axis gridlines and ticks:
                              #     - below patches (True)
                              #     - above patches but below lines ('line')
                              #     - above all (False)
